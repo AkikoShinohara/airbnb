@@ -1,0 +1,591 @@
+* {
+  color: #484848;
+}
+/* header */
+header {
+  padding: 25px 30px;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(68, 67, 67, 0.144);
+  width: 100vw;
+  z-index: 50;
+}
+
+.header-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+}
+
+.fab {
+  color: #05878b;
+  padding-right: 10px;
+}
+
+.header-left > ul {
+  display: flex;
+  padding: 0 10px;
+}
+
+.header-left li {
+  padding: 0 15px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.header-left a {
+  text-decoration: none;
+}
+
+.header-right {
+  margin: 0 47px;
+}
+
+.header-right > a{
+  display: block;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(243, 52, 84);
+  padding: 9px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* top wrapper */
+.top-wrapper {
+  background-image: url(images/image01.png);
+  background-size: cover;
+  width: 100vw;
+  padding: 70px 0;
+  /* height: 80vh; */
+}
+
+.top-font h1{
+  position: absolute;
+  width: 400px;
+  top: 170px;
+  left: 120px;
+  font-size: 40px;
+  z-index: 15;
+  font-weight: bold;
+}
+
+.form {
+  width: 460px;
+  z-index: 10;
+  position: relative;
+  background-color: white;
+  margin-top: 60px;
+  margin-left: 92px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form > p {
+  margin-top: 190px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 10px 0;
+  border: 1px solid #68676752;
+}
+
+input:focus {
+  outline-color: #05878b;
+}
+
+.room-type {
+  border: 1px solid #68676752;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.room-type:focus {
+  outline-color: #05878b;
+}
+
+.guest {
+  border: 1px solid #68676752;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 45%;
+  margin-left: 15px;
+}
+
+.guest:focus {
+  outline-color: #05878b;
+}
+
+
+.top-btn {
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(243, 52, 84);
+  margin: 25px 0;
+  padding: 15px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(243, 52, 84);
+  width: 100%;
+}
+
+/* main */
+main {
+  text-align: center;
+  margin: 0 auto;
+  width: 1100px;
+}
+/* reason */
+.reason {
+  display: flex;
+  margin: 70px 0;
+  padding: 0 24px;
+}
+
+.reason-right {
+  margin: 16px 0;
+  margin-right: 64px;
+  text-align: left;
+}
+
+.reason-left {
+  margin: 16px 0;
+  padding: 0 8px;
+  margin-right: 64px;
+  text-align: left;
+}
+
+.reason h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.reason p {
+  margin: 16px auto;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* host wrapper */
+.host-wrapper {
+  padding: 20px 0;
+}
+
+.border {
+  border-bottom: 2px solid #555555;
+  margin-left: 520px;
+  width: 70px;
+}
+
+.tittle h1{
+  padding: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+
+.host-contents {
+  margin: 40px 0;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 0 8px;
+}
+
+.host-content {
+  margin-right: 40px;
+  width: 27%;
+}
+
+.host-content > i {
+  margin-bottom: 16px;
+}
+
+.host-content > h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.host-content p {
+  margin: 16px 0;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.host-content a {
+  color: #05878b;
+  text-decoration: none;
+}
+/* host talk */
+.host-talk {
+  margin: 150px 0;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.dennis {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.talk {
+  text-align: left;
+  width: 70%;
+  margin-right: 50px;
+  padding: 0 30px;
+}
+
+.talk i {
+  color: orange;
+}
+
+.talk > h1 {
+  font-size: 32px;
+}
+
+.talk > p {
+  margin: 16px 0;
+  color: #767676;
+}
+
+.talk a {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 3px solid #484848;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* relief 安心 */
+.relief-contents {
+  margin: 50px 0;
+  display: flex;
+}
+
+.relief-left {
+  width: 38%;
+  text-align: left;
+  line-height: 30px;
+  margin-right: 100px;
+}
+
+.relief-left a {
+  display: inline-block;
+  padding-top: 15px;
+  color: #05878b;
+  text-decoration: none;
+}
+
+.relief-right > ul {
+  text-align: left;
+}
+
+.relief-right li {
+  margin-bottom: 28px;
+}
+
+.fas {
+  color: #05878b;
+}
+
+.relief-img {
+  margin: 80px 0;
+}
+
+.relief {
+  height: 80%;
+  width: 95%;
+  object-fit: cover;
+}
+/* pay 決済 */
+.pay-border {
+  border-bottom: 2px solid #555555;
+  margin-left: 520px;
+  width: 70px;
+  margin-top: 150px;
+}
+
+.pay-contents {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.pay-content h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pay-content p {
+  margin: 16px 0;
+  margin-right: 37px;
+  line-height: 30px;
+}
+
+.pay-content a {
+  color: #05878b;
+  text-decoration: none;
+}
+
+.pay-talk {
+  margin: 140px 0;
+  display: flex;
+}
+
+.Tessa {
+  height: 95%;
+  width: 95%;
+  margin-left: 50px;
+  object-fit: cover;
+}
+
+.talk2 {
+  text-align: left;
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 0 30px;
+}
+
+.talk2 i {
+  color: orange;
+}
+
+.talk2 > h1 {
+  font-size: 32px;
+}
+
+.talk2 > p {
+  margin: 20px 0;
+  color: #767676;
+}
+
+.talk2 a {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 3px solid #484848;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* airbnb とは */
+.airbnb-contents {
+  text-align: left;
+  display: flex;
+  margin: 50px 0;
+  padding: 0 24px;
+}
+
+.airbnb-content{
+  margin-right: 64px;
+}
+
+.airbnb-content h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.airbnb-content p {
+  margin: 16px 0;
+  line-height: 30px;
+}
+
+.airbnb-content a {
+  color: #05878b;
+  text-decoration: none;
+}
+/* よくある質問 */
+.q-border {
+  border-bottom: 2px solid #555555;
+  margin-top: 200px;
+  margin-left: 520px;
+  width: 70px;
+}
+
+.question {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question > ul {
+  margin-bottom: 50px;
+  padding: 0 24px;
+  text-align: left;
+}
+
+.question li {
+  padding: 24px 0;
+  border-bottom: 1px solid #6464642c;
+  width: 500px;
+}
+
+.question a {
+  font-size: 18px;
+  color: #05878b;
+  text-decoration: none;
+}
+/* ホスト詳細 */
+.detail-wrapper {
+  margin: 70px 0;
+  padding: 0 8px;
+  text-align: left;
+}
+
+.detail-wrapper h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.detail-contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.detail-content > img {
+  height: 65%;
+  width: 90%;
+  object-fit: cover;
+  padding: 15px 0;
+}
+
+.detail-content span {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.detail-content p {
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.detail-content a {
+  font-size: 14px;
+  color: #05878b;
+  text-decoration: none;
+}
+/* 収益化してみませんか */
+.under-wrapper {
+  margin: 0 auto;
+  width: 1300px;
+  background-image: url(images/image08.png);
+  background-size: cover;
+  margin-bottom: 50px;
+  padding: 40px 0;
+}
+
+.under-contents {
+  margin: 0 60px;
+  padding: 0 15px;
+
+}
+
+.under-contents h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 96px;
+  width: 40%;
+}
+
+.under-contents a{
+  display: block;
+  color: #555555;
+  font-size: 14px;
+  background-color: white;
+  padding: 15px 22px;
+  border-radius: 10%;
+  width: 9%;
+  margin: 32px 0;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+/* footer */
+footer {
+  color: #484848;
+  background-color: rgba(214, 211, 211, 0.144);
+  border-top: 1px solid rgba(56, 56, 56, 0.123);
+  padding: 48px 0;
+  padding: 0 80px;
+}
+
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 50px 0;
+}
+
+.footer-content h1 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer-content li {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.footer-content a {
+  text-decoration: none;
+}
+
+/* footer sns */
+.footer-sns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sns1 i {
+  color: black;
+}
+
+.sns {
+  font-size: 14px;
+  margin-right: 100px;
+}
+
+.sns a {
+  margin: 0 10px;
+  color: black;
+}
+
+.footer-border {
+  border-top: 1px solid rgba(56, 56, 56, 0.123);
+}
+
+.footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.footer-security {
+  width: 70%;
+  font-size: 14px;
+  text-align: left;
+}
+
+.security a {
+  text-decoration: none;
+  display: block;
+}
+
+.security1 a{
+  display: inline-flex;
+  text-decoration: none;
+}
