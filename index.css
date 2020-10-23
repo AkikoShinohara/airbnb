@@ -60,7 +60,7 @@ header {
   padding: 70px 0;
 }
 
-.fab {
+.top-wrapper i {
   display: none;
 }
 
@@ -227,7 +227,7 @@ main {
   color: #05878b;
   text-decoration: none;
 }
-/* host talk */
+/* 3ステップでホスティング */
 .host-talk {
   margin: 150px 0;
   padding: 0 24px;
