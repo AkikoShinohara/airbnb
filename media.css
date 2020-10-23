@@ -28,6 +28,7 @@
   .form {
     background-color: transparent;
     margin: 0 auto;
+    /* max-width: 100vw; */
     width: 75%;
     z-index: 0;
     top: 250px;
@@ -138,7 +139,6 @@
 }
 
 .border {
-  border-bottom: 2px solid #555555;
   margin-left: 350px;
   width: 70px;
 }
@@ -452,17 +452,18 @@
   display: none;
 }
 /* 収益化してみませんか */
-.under-wrapper {
+.under-wrapper-a {
+  
+}
+
+.under-wrapper-b {
   margin: 0 0px;
   width: 100%;
-  background-image: url(images/image08.png);
-  background-size: cover;
-  margin-bottom: 50px;
   height: 440px;
 }
 
 .under-contents {
-  width: 100%;
+  width: 90%;
 }
 
 .under-contents h1 {

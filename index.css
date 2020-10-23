@@ -479,9 +479,12 @@ main {
   text-decoration: none;
 }
 /* 収益化してみませんか */
-.under-wrapper {
-  margin: 0 auto;
-  width: 1300px;
+.under-wrapper-a {
+ margin: auto;
+ max-width: 1280px;  
+}
+
+.under-wrapper-b {
   background-image: url(images/image08.png);
   background-size: cover;
   margin-bottom: 50px;
@@ -499,7 +502,7 @@ main {
   font-weight: bold;
   font-size: 60px;
   padding-top: 96px;
-  width: 40%;
+  width: 450px;
 }
 
 .under-contents a{
@@ -509,7 +512,7 @@ main {
   background-color: white;
   padding: 15px 22px;
   border-radius: 10%;
-  width: 9%;
+  width: 100px;
   margin: 32px 0;
   margin-bottom: 50px;
   text-decoration: none;
