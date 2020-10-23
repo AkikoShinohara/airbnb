@@ -1,0 +1,330 @@
+/* スマートフォン表示時 */
+@media (max-width: 743px) {
+  header {
+    display: none;
+  }
+/* airbnb マーク */
+  .top-wrapper i {
+    display: block;
+    padding: 20px 20px;
+    color: black;
+  }
+/* top-wrapper */
+  .top-wrapper {
+    height: 250px;
+    padding: 0px 0px;
+  }
+
+  .top-font h1 {
+    font-size: 34px;
+    position: static;
+    margin: 0 auto;
+    width: 100vw;
+    padding-top: 0px;
+    padding-left: 25px;
+    left: 0;
+    color: black;
+    position: absolute;
+  }
+
+  .form {
+    background-color: transparent;
+    margin: 0 auto;
+    width: 95%;
+    z-index: 0;
+    top: 200px;
+    left: 0px;
+    padding: 0px 0px;
+    border-radius: 10px;
+  }
+  
+  .form > p {
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: 1px solid #68676752;
+  }
+  
+  input:focus {
+    outline-color: #05878b;
+  }
+  
+  .room-type {
+    border: 1px solid #68676752;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .room-type:focus {
+    outline-color: #05878b;
+  }
+  
+  .guest {
+    border: 1px solid #68676752;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 0vw;
+  }
+  
+  .guest:focus {
+    outline-color: #05878b;
+  }
+  
+  
+  .top-btn {
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 14px;
+    background-color: rgb(243, 52, 84);
+    margin: 25px 0;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(243, 52, 84);
+    width: 100%;
+  }
+  
+  /* main */
+  main {
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    padding: 0 15px;
+  }
+  /* reason */
+  .reason {
+    margin: 0px;
+    width: 100%;
+    display: block;
+    margin-top: 300px;
+  }
+  
+  .reason-right {
+    margin: 0px 0px;
+    margin-right: 0px;
+    text-align: left;
+  }
+  
+  .reason-left {
+    margin: 0px 0;
+    margin-bottom: 48px;
+    padding: 0px;
+    margin-right: 0px;
+    text-align: left;
+  }
+  
+  .reason h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .reason p {
+    margin: 16px auto;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  /* host wrapper */
+.host-wrapper {
+  margin: 0 auto;
+  margin-top: 85px;
+  width: 100%;
+}
+
+.border {
+  border-bottom: 2px solid #555555;
+  margin-left: 0px;
+  width: 70px;
+}
+
+.tittle h1{
+  padding: 20px 0px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.host-contents {
+  padding: 0px;
+}
+
+/* 3ステップでホスティング */
+.host-talk {
+  width: 100%;
+  padding: 60px 0px;
+  display: block;
+}
+
+.dennis {
+  height: 100%;
+  width: 100%;
+}
+
+.talk {
+  width: 100%;
+}
+
+/* relief 安心 */
+.relief-contents {
+  width: 100%;
+}
+.relief-img {
+  margin: 80px 0;
+}
+
+.relief {
+  height: 100vw;
+  object-fit: cover;
+}
+/* pay 決済 */
+.pay-border {
+  margin-left: 0px;
+  width: 70px;
+  margin-top: 110px;
+}
+
+.pay-contents {
+  width: 100%;
+}
+
+.pay-talk {
+  width: 100%;
+  padding: 0px;
+  display: block;
+}
+
+.Tessa {
+  height: 100%;
+  width: 100%;
+}
+
+.talk2 {
+  width: 100%;
+  margin: 0px 0px 90px 0px; 
+  padding: 0px;
+}
+/* airbnb とは */
+.airbnb-contents {
+  margin: 30px 0px;
+  padding: 0px;
+}
+/* よくある質問 */
+.q-border {
+  margin-top: 110px;
+  margin-left: 0px;
+  width: 70px;
+}
+
+.question {
+  margin: 25px 0;
+}
+
+.question li {
+  padding: 30px 0;
+  width: auto;
+}
+/* ホスト詳細 */
+.detail-contents {
+  display: block;
+}
+
+.detail-content {
+  display: flex;
+  margin: 20px 0;
+  padding: 0px;
+  width: 100%;
+}
+
+
+.detail-content > img {
+  height: 70px;
+  width: 70px;
+  padding: 0px;
+}
+
+.detail {
+  margin: 20px 20px;
+}
+
+.detail-content span {
+  padding: 0px;
+}
+
+.detail-content p {
+  width: 100%;
+}
+
+/* 収益化してみませんか */
+.under-contents {
+  width: 100%;
+  margin: 0px;
+  padding: 0 24px;
+}
+
+.under-contents h1 {
+  font-size: 38px;
+  width: 60%;
+  padding-left: 0px;
+}
+
+.under-contents a{
+  margin-left: 0px;
+}
+/* footer */
+footer {
+  padding: 0px 20px;
+}
+
+.footer-content h1 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.footer-content > ul {
+  display: block;
+}
+
+.footer-content li {
+  width: 100%;
+}
+
+/* footer sns */
+.footer-sns {
+  display: block;
+  margin: 0px;
+  width: 100%;
+  text-align: left;
+}
+
+.sns1 {
+  display: none;
+}
+
+.sns {
+  margin-right: 0px;
+}
+
+.footer-security {
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.security {
+  display: inline-flex;
+  width: 100%;
+}
+
+.security1 {
+  margin-top: 5px;
+  display: block;
+}
