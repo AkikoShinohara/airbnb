@@ -4,35 +4,35 @@
     display: none;
   }
 /* airbnb マーク */
-  .fab {
+  .top-wrapper i {
     display: block;
-    margin: 30px 30px;
+    padding: 20px 20px;
     color: black;
   }
 /* top-wrapper */
   .top-wrapper {
-    padding: 0px;
     height: 310px;
-    /* margin: -30px; */
+    padding: 0px 0px;
   }
 
   .top-font h1 {
     position: static;
     margin: 0 auto;
     width: 80vw;
-    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 60px;
     color: black;
+    position: absolute;
   }
 
   .form {
-    position: static;
+    background-color: transparent;
     margin: 0 auto;
-    width: 80vw;
+    width: 75%;
     z-index: 0;
-    background-color: white;
-    margin-top: 0;
-    margin-left: 0;
-    padding: 20px;
+    top: 250px;
+    left: 0px;
+    padding: 0px 0px;
     border-radius: 10px;
   }
   
@@ -42,7 +42,7 @@
   }
   
   input {
-    width: 100%;
+    width: 98%;
     border-radius: 5px;
     padding: 15px 10px;
     margin: 10px 0;
@@ -57,7 +57,7 @@
     border: 1px solid #68676752;
     padding: 15px 10px;
     border-radius: 5px;
-    width: 50%;
+    width: 56%;
   }
   
   .room-type:focus {
@@ -68,8 +68,8 @@
     border: 1px solid #68676752;
     padding: 15px 10px;
     border-radius: 5px;
-    width: 45%;
-    margin-left: 15px;
+    width: 40%;
+    margin-left: 1vw;
   }
   
   .guest:focus {
@@ -94,26 +94,29 @@
   main {
     text-align: center;
     margin: 0 auto;
-    width: 700px;
+    width: 750px;
   }
   /* reason */
   .reason {
-    margin-top: 00px;
+    margin: 0 auto;
+    width: 600px;
     display: block;
-    margin: 70px 0;
+    align-items: center;
+    margin-top: 300px;
     padding: 0 24px;
   }
   
   .reason-right {
-    margin: 16px 0;
-    margin-right: 64px;
+    margin: 0px 0px;
+    margin-right: 0px;
     text-align: left;
   }
   
   .reason-left {
-    margin: 16px 0;
-    padding: 0 8px;
-    margin-right: 64px;
+    margin: 0px 0;
+    margin-bottom: 48px;
+    padding: 0 0px;
+    margin-right: 0px;
     text-align: left;
   }
   
@@ -130,18 +133,19 @@
 
   /* host wrapper */
 .host-wrapper {
-  padding: 20px 0;
+  margin: 0 auto;
+  width: 550px;
 }
 
 .border {
   border-bottom: 2px solid #555555;
-  margin-left: 520px;
+  margin-left: 350px;
   width: 70px;
 }
 
 .tittle h1{
   padding: 20px;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   font-family: sans-serif;
   color: black;
@@ -150,15 +154,15 @@
 .host-contents {
   margin: 40px 0;
   padding: 0 24px;
-  display: flex;
-  justify-content: space-around;
+  display: block;
   text-align: left;
   padding: 0 8px;
 }
 
 .host-content {
-  margin-right: 40px;
-  width: 27%;
+  margin-right: 0px;
+  width: 100%;
+  margin-bottom: 70px;
 }
 
 .host-content > i {
@@ -180,25 +184,23 @@
   color: #05878b;
   text-decoration: none;
 }
-/* host talk */
+/* 3ステップでホスティング */
 .host-talk {
-  margin: 150px 0;
-  padding: 0 24px;
-  display: flex;
-  flex-direction: row-reverse;
+  margin: 0 auto;
+  width: 110%;
+  padding: 100px 0px;
+  justify-content: space-between;
 }
 
 .dennis {
-  height: 100%;
-  width: 100%;
+  height: 330px;
+  width: 300px;
   object-fit: cover;
 }
 
 .talk {
-  text-align: left;
-  width: 70%;
-  margin-right: 50px;
-  padding: 0 30px;
+  width: 150%;
+  padding: 0 0px;
 }
 
 .talk i {
@@ -206,11 +208,11 @@
 }
 
 .talk > h1 {
-  font-size: 32px;
+  font-size: 18px;
 }
 
 .talk > p {
-  margin: 16px 0;
+  margin: 14px 0;
   color: #767676;
 }
 
@@ -223,20 +225,21 @@
 }
 /* relief 安心 */
 .relief-contents {
-  margin: 50px 0;
-  display: flex;
+  width: 85%;
+  margin: 0px auto;
+  display: block;
 }
 
 .relief-left {
-  width: 38%;
+  width: 100%;
   text-align: left;
   line-height: 30px;
-  margin-right: 100px;
+  margin-top: 50px;
 }
 
 .relief-left a {
   display: inline-block;
-  padding-top: 15px;
+  padding: 30px 0;
   color: #05878b;
   text-decoration: none;
 }
@@ -265,17 +268,21 @@
 /* pay 決済 */
 .pay-border {
   border-bottom: 2px solid #555555;
-  margin-left: 520px;
+  margin-left: 350px;
   width: 70px;
   margin-top: 150px;
 }
 
 .pay-contents {
-  display: flex;
-  justify-content: space-around;
+  margin: 0 auto;
+  width: 75%;
+  display: block;
   text-align: left;
-  margin-top: 35px;
-  margin-left: 30px;
+  padding-top: 35px;
+}
+
+.pay-content {
+  margin-bottom: 48px;
 }
 
 .pay-content h1 {
@@ -285,7 +292,7 @@
 
 .pay-content p {
   margin: 16px 0;
-  margin-right: 37px;
+  margin-right: 0px;
   line-height: 30px;
 }
 
@@ -295,22 +302,24 @@
 }
 
 .pay-talk {
-  margin: 140px 0;
+  margin: 0 auto;
+  width: 95%;
+  padding: 90px 0;
   display: flex;
 }
 
 .Tessa {
-  height: 95%;
-  width: 95%;
-  margin-left: 50px;
+  height: 330px;
+  width: 330px;
+  margin-left: 0px;
   object-fit: cover;
 }
 
 .talk2 {
   text-align: left;
-  width: 60%;
-  margin-top: 100px;
-  margin-left: 50px;
+  width: 45%;
+  margin-top: 30px;
+  margin-left: 25px;
   padding: 0 30px;
 }
 
@@ -319,10 +328,11 @@
 }
 
 .talk2 > h1 {
-  font-size: 32px;
+  font-size: 18px;
 }
 
 .talk2 > p {
+  font-size: 14px;
   margin: 20px 0;
   color: #767676;
 }
@@ -337,13 +347,15 @@
 /* airbnb とは */
 .airbnb-contents {
   text-align: left;
-  display: flex;
-  margin: 50px 0;
+  display: block;
+  margin: 50px 60px;
   padding: 0 24px;
 }
 
 .airbnb-content{
-  margin-right: 64px;
+  width: auto;
+  margin-right: 0px;
+  margin-bottom: 48px;
 }
 
 .airbnb-content h1 {
@@ -364,30 +376,30 @@
 .q-border {
   border-bottom: 2px solid #555555;
   margin-top: 200px;
-  margin-left: 520px;
-  width: 70px;
+  margin-left: 310px;
+  width: 60px;
 }
 
 .question {
-  margin: 50px 0;
-  display: flex;
+  margin: 60px 0;
+  display: block;
   justify-content: space-between;
 }
 
 .question > ul {
-  margin-bottom: 50px;
-  padding: 0 24px;
+  margin-bottom: 0px;
+  padding: 0 0px;
   text-align: left;
 }
 
 .question li {
   padding: 24px 0;
   border-bottom: 1px solid #6464642c;
-  width: 500px;
+  width: 700px;
 }
 
 .question a {
-  font-size: 18px;
+  font-size: 16px;
   color: #05878b;
   text-decoration: none;
 }
